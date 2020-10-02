@@ -15,4 +15,4 @@ nota4 = gets.to_f
 
 media = (nota1 + nota2 + nota3 + nota4) / 4
 
-puts "A média das notas é #{media}"
+puts "A média das notas é #{"%.2f" % media}"
